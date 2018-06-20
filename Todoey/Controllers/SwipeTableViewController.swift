@@ -25,6 +25,8 @@ class SwipeTableViewController: UITableViewController, SwipeTableViewCellDelegat
         
         cell.delegate = self
         
+        cell.textLabel?.font = UIFont.preferredFont(forTextStyle: .title2)
+        
         return cell
     }
     
